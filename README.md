@@ -1,4 +1,4 @@
-![Cleaned_data_image](https://github.com/user-attachments/assets/b18a9fc2-a7f1-4b57-ae63-ef901e5c071e)
+![Cleaned Dateset Preview](cleaned_data.png)
 
 # GreenData-Solutions_Data_Cleaning_Challenge_Report.
 I am **Tijani Taiwo Akanni**, a participant of the 10 days data cleaning challenge organized by GreenData Solutions. The main aim of this project is to showcase my first docunmentation using Github with
