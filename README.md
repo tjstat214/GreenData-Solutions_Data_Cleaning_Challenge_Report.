@@ -12,8 +12,8 @@ This Data cleaning project aimed to analyze and clean messy data related to pati
 - Source: GreenData Solutions <br>
 - Size: 1659 Rows, 12 Columns <br>
 - Format: CSV
-
-!['Dirty dataset before Cleaning'](https://github.com/user-attachments/assets/ca327505-073a-4202-a4eb-405d54b21983)
+###### The image below show the raw dataset before transformation
+!['Dirty dataset before Cleaning'](dirty_dataset.png)
 
 ## Dataset Descriptions:
 ###  Duplicates Data
@@ -33,8 +33,8 @@ This Data cleaning project aimed to analyze and clean messy data related to pati
 - Age equals Zero, and a PhD holders having age less than 10......
 - Also, Salary having negative values.
 
-##### The image below show the Exploratory Data analysis performed on the datasets to understand the dataset structure, identify anomalies, and gain preliminary insights.
-![Exploratory Data analysis On the dataset after removing duplicates.](https://github.com/user-attachments/assets/53d92497-70fd-444b-88c8-24039873a1b5)
+###### The image below show the Exploratory Data analysis performed on the datasets to understand the dataset structure, identify anomalies, and gain preliminary insights.
+![Exploratory Data analysis On the dataset after removing duplicates.](EDA.png)
 
 ## Data Cleaning Process:
 - A copy of the original data was created before transformation to avoid data lost.
@@ -80,8 +80,22 @@ This Data cleaning project aimed to analyze and clean messy data related to pati
 
 - **Date of Admission:** Text to columns and Date function was employed to standardized the date format. The date format was in "short date".
 
+##### Dataset after cleaning
+![ataset after transformation](cleaned_data.png)
+
+## Short analysis: 
+Identify cities or demographics with higher healthcare needs based on health conditions and admission dates.
+
+###### Visuals to show distribution of City base on Health condition and patients trends in each city from 2019 to 2024.
+    Distribution of cities Health condition                | Patients trend by cities
+: ------------------------------------------------------: | :------------------------------------------:
+![Distribution of cities Health condition](bar_chart.png) | ![patients trend by cities](Line_chart.png)
 
 
+### Analysis Insight:
+- Atlanta has the highest number of patients for each year from 2019 to 2024
+- All city have their highest number of patients in the year 2020( The covid year)
+- Baltimore has the highest decline rate of 64% from 2023 to 2024, followed by Atlanta 61%.
 
-
-
+### Conclusion: 
+Atlanta city should be provided with more healthcare need as the analysis showed that they have higher number of patients admitted for every year from 2019 to 2024.
