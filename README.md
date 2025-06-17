@@ -80,16 +80,17 @@ This Data cleaning project aimed to analyze and clean messy data related to pati
 
 - **Date of Admission:** Text to columns and Date function was employed to standardized the date format. The date format was in "short date".
 
-##### Dataset after cleaning
-![ataset after transformation](cleaned_data.png)
+###### Dataset after cleaning
+![Dataset after transformation](cleaned_data.png)
 
 ## Short analysis: 
 Identify cities or demographics with higher healthcare needs based on health conditions and admission dates.
 
 ###### Visuals to show distribution of City base on Health condition and patients trends in each city from 2019 to 2024.
-    Distribution of cities Health condition                | Patients trend by cities
-: ------------------------------------------------------: | :------------------------------------------:
-![Distribution of cities Health condition](bar_chart.png) | ![patients trend by cities](Line_chart.png)
+
+| Visual_1    |   Visual_2 |
+|:-----------:|:-----------:|
+|![](bar_chart.png)|![patients trend by cities](Line_chart.png)|
 
 
 ### Analysis Insight:
